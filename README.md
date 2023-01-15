@@ -1,4 +1,4 @@
-# Training EfficientDet With PyTorch Lightning & Wandb & Hydra
+# Training EfficientDet with PyTorch Lightning & Wandb
 
 This is a [PyTorch Lightning](https://pytorch-lightning.readthedocs.io/en/stable/)-based pipeline for training EfficientDet on COCO 2017 dataset. For better efficiency, it logs with [Wandb](https://docs.wandb.ai/), configures training with yaml files and manages them with [Hydra](https://hydra.cc/docs/intro/), and defines augmentation with [Albumentations](https://albumentations.ai/docs/). But if you want to train a different model, you can easily create a new training by slight modifications to the template.  
 
